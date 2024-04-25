@@ -59,7 +59,20 @@ a {
      -o-transition: all .3s ease-in-out;
      transition: all .3s ease-in-out;
 }
-
+.logo img {
+    max-width: 80px;
+}
+section.banner_main img {
+    margin-top: 20px;
+    width: 100%;
+}
+a.read_more {
+    padding: 0 4px;
+}
+.gallery .gallery_img figure img {
+    height: 200px !important;
+    object-fit: cover;
+}
 h1,
 h2,
 h3,
